@@ -15,14 +15,14 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
+    border: 1px solid white;
     background-color: transparent;
     width: 7em;
     height: 2em;
     border-radius: 5%;
     font-size: 1em;
     background-color: rgba(0, 0, 0, 0.4);
-    /* color: white; */
+    color: white;
     outline: none;
 }
 

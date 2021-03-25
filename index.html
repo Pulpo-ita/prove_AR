@@ -25,6 +25,7 @@
     <div class=" pt-5 mt-5 flex justify-center" >
         <form class="w-full max-w-lg" id="form" action="prova.html" >
             <div class="flex flex-wrap -mx-3 mb-6">
+                
                 <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label class="text-lg block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="latitude">
                         Latidudine
@@ -37,10 +38,16 @@
                         Longitudine
                     </label>
                     <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" name="longitude" id="longitude" type="text" >
+                    
                 </div>
+                
             </div>
+            
             <a href="javascript: a = document.getElementById('latitude').value  ;  b = document.getElementById('longitude').value; document.getElementById('form').submit();" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" id="btn">
                 Invia i dati 
+            </a>
+            <a  target="_blank" href="https://www.latlong.net/" class=" mx-2 text-gray-600 text-s italic">
+               Vai su latlong.net
             </a>
         </form>
         

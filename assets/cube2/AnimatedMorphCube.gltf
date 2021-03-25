@@ -1,0 +1,363 @@
+{
+   "accessors" : [
+      {
+         "bufferView" : 0,
+         "componentType" : 5126,
+         "count" : 24,
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 1,
+         "componentType" : 5126,
+         "count" : 24,
+         "type" : "VEC4"
+      },
+      {
+         "bufferView" : 2,
+         "componentType" : 5126,
+         "count" : 24,
+         "max" : [ 0.0100000035, 0.0100000035, 0.01 ],
+         "min" : [ -0.0100000044, -0.0100000054, -0.01 ],
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 3,
+         "componentType" : 5126,
+         "count" : 24,
+         "name" : "thin",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 4,
+         "componentType" : 5126,
+         "count" : 24,
+         "max" : [ 0, 0.01893253, 0 ],
+         "min" : [ 0, 0, 0 ],
+         "name" : "thin",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 5,
+         "componentType" : 5126,
+         "count" : 24,
+         "name" : "thin",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 6,
+         "componentType" : 5126,
+         "count" : 24,
+         "name" : "angle",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 7,
+         "componentType" : 5126,
+         "count" : 24,
+         "max" : [ 0, 0.0198908355, 0 ],
+         "min" : [ 0, 0, 0 ],
+         "name" : "angle",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 8,
+         "componentType" : 5126,
+         "count" : 24,
+         "name" : "angle",
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 9,
+         "componentType" : 5123,
+         "count" : 36,
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 10,
+         "componentType" : 5126,
+         "count" : 127,
+         "max" : [ 4.19999743 ],
+         "min" : [ 0 ],
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 11,
+         "componentType" : 5126,
+         "count" : 254,
+         "type" : "SCALAR"
+      }
+   ],
+   "animations" : [
+      {
+         "channels" : [
+            {
+               "sampler" : 0,
+               "target" : {
+                  "node" : 0,
+                  "path" : "weights"
+               }
+            }
+         ],
+         "name" : "Square",
+         "samplers" : [
+            {
+               "input" : 10,
+               "interpolation" : "LINEAR",
+               "output" : 11
+            }
+         ]
+      }
+   ],
+   "asset" : {
+      "extras" : {
+         "GOOGLE_processor_version" : 298275633
+      },
+      "generator" : "glTF Tools for Unity",
+      "version" : "2.0"
+   },
+   "bufferViews" : [
+      {
+         "buffer" : 0,
+         "byteLength" : 288
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 384,
+         "byteOffset" : 288
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 288,
+         "byteOffset" : 672
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 288,
+         "byteOffset" : 960
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 288,
+         "byteOffset" : 1248
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 288,
+         "byteOffset" : 1536
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 288,
+         "byteOffset" : 1824
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 288,
+         "byteOffset" : 2112
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 288,
+         "byteOffset" : 2400
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 72,
+         "byteOffset" : 2688
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 508,
+         "byteOffset" : 2760
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 1016,
+         "byteOffset" : 3268
+      }
+   ],
+   "buffers" : [
+      {
+         "byteLength" : 4284,
+         "uri" : "AnimatedMorphCube.bin"
+      }
+   ],
+   "cameras" : [
+      {
+         "perspective" : {
+            "yfov" : 0.7853981633974483,
+            "znear" : 0.1000000014901161
+         },
+         "type" : "perspective"
+      }
+   ],
+   "extensions" : {
+      "KHR_lights_punctual" : {
+         "lights" : [
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.25,
+               "name" : "headLight",
+               "type" : "directional"
+            },
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.324999988079071,
+               "name" : "keyLight",
+               "type" : "directional"
+            }
+         ]
+      }
+   },
+   "extensionsUsed" : [ "GOOGLE_backgrounds", "GOOGLE_camera_settings", "KHR_lights_punctual" ],
+   "extras" : {
+      "GOOGLE_animation_settings" : {
+         "animationMetadata" : [
+            {
+               "name" : "Square",
+               "playbackSpeed" : 2.99,
+               "playbackType" : "LOOP"
+            }
+         ],
+         "autoplay" : true,
+         "defaultAnimationName" : "Square"
+      },
+      "GOOGLE_initial_camera_motion" : {
+         "motionPath" : "FULL_ROTATION"
+      },
+      "GOOGLE_lighting_rig" : {
+         "disableShadows" : false
+      }
+   },
+   "materials" : [
+      {
+         "alphaCutoff" : 0.5,
+         "alphaMode" : "OPAQUE",
+         "doubleSided" : false,
+         "emissiveFactor" : [ 0, 0, 0 ],
+         "name" : "Material",
+         "pbrMetallicRoughness" : {
+            "baseColorFactor" : [ 0.6038274168968201, 0.6038274168968201, 0.6038274168968201, 1 ],
+            "metallicFactor" : 0,
+            "roughnessFactor" : 0.5
+         }
+      }
+   ],
+   "meshes" : [
+      {
+         "name" : "Cube",
+         "primitives" : [
+            {
+               "attributes" : {
+                  "NORMAL" : 0,
+                  "POSITION" : 2,
+                  "TANGENT" : 1
+               },
+               "indices" : 9,
+               "material" : 0,
+               "targets" : [
+                  {
+                     "NORMAL" : 3,
+                     "POSITION" : 4,
+                     "TANGENT" : 5
+                  },
+                  {
+                     "NORMAL" : 6,
+                     "POSITION" : 7,
+                     "TANGENT" : 8
+                  }
+               ]
+            }
+         ],
+         "weights" : [ 0, 0 ]
+      }
+   ],
+   "nodes" : [
+      {
+         "mesh" : 0,
+         "name" : "AnimatedMorphCube",
+         "rotation" : [ 0, 0.7071067, -0.7071068, 0 ],
+         "scale" : [ 100, 100, 100 ]
+      },
+      {
+         "children" : [ 2 ]
+      },
+      {
+         "children" : [ 3 ],
+         "extras" : {
+            "isTransformNode" : 1
+         },
+         "translation" : [ -0.004999954535507525, -0.005000001101623099, 0.005000050868160932 ]
+      },
+      {
+         "children" : [ 0 ],
+         "translation" : [ 0.004999954535507525, 0.005000001101623099, -0.005000050868160932 ]
+      },
+      {
+         "camera" : 0,
+         "children" : [ 5 ],
+         "rotation" : [
+            -0.2222109694422381,
+            -0.2518772342127734,
+            -0.05954125154647177,
+            0.940018607958983
+         ],
+         "translation" : [ -3.823038676415306, 3.818862387171894, 6.61803687990694 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 0
+            }
+         },
+         "extras" : {
+            "isHeadLight" : 1
+         },
+         "name" : "headLightNode",
+         "translation" : [ -1.905255726306303, 0.9526278631531515, 0.9526278631531515 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 1
+            }
+         },
+         "extras" : {
+            "isKeyLight" : 1
+         },
+         "name" : "keyLightNode",
+         "rotation" : [ -0.7505326882858236, -0.3752663441429118, 0, 0.5439447166468927 ],
+         "scale" : [ 0, 0, 1.924308283569366 ],
+         "translation" : [ -1.924308306852426, 3.848616567138734, -1.924308248644773 ]
+      }
+   ],
+   "scene" : 0,
+   "scenes" : [
+      {
+         "extensions" : {
+            "GOOGLE_backgrounds" : {
+               "color" : [ 0.6196078431372549, 0.6196078431372549, 0.6196078431372549 ]
+            },
+            "GOOGLE_camera_settings" : {
+               "mode" : "movableOrbit",
+               "pivot" : [ -0.004999954535506834, -0.00500000110162313, 0.005000050868156691 ]
+            }
+         },
+         "extras" : {
+            "GOOGLE_camera_index" : {
+               "cameraIndex" : 0,
+               "nodeIndex" : 4
+            },
+            "GOOGLE_geometry_data" : {
+               "stats" : {
+                  "centroid" : [ -2.328306023905805e-08, 1.864249495516408e-15, 3.49245934903412e-08 ],
+                  "radius" : 1.905255726306303,
+                  "stdev" : 1.7693031918918
+               },
+               "visualCenterPoint" : [ -0.004999954535507525, -0.005000001101623099, 0.005000050868160932 ]
+            }
+         },
+         "nodes" : [ 1, 4, 6 ]
+      }
+   ]
+}

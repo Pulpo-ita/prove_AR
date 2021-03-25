@@ -1,0 +1,55 @@
+<!-- <form >
+    <input id="nome" name="nome" type="hidden">
+    <input id="cognome" name="cognome" type="hidden">
+</form>
+<script>
+    var a = prompt("Scrivi il tuo nome","");
+    var b = prompt("scrivi il tuo cognome","");
+</script>
+<a href="javascript: document.getElementById('nome').value = a; document.getElementById('cognome').value = b; document.getElementById('form').submit();">Pagina successiva</a> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/tailwind.css" rel="stylesheet">
+    <title>Prova AR</title>
+    <script>
+        
+    </script>
+</head>
+
+<body>
+    <div class=" pt-5 mt-5 flex justify-center" >
+        <form class="w-full max-w-lg" id="form" action="prova.html" >
+            <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label class="text-lg block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="latitude">
+                        Latidudine
+                    </label>
+                    <input  class="appearance-none block w-full bg-gray-200 text-gray-700 border  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" name="latitude" id="latitude" type="text" >
+                    
+                </div>
+                <div class="w-full md:w-1/2 px-3">
+                    <label class="text-lg block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="longitude">
+                        Longitudine
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" name="longitude" id="longitude" type="text" >
+                </div>
+            </div>
+            <a href="javascript: a = document.getElementById('latitude').value  ;  b = document.getElementById('longitude').value; document.getElementById('form').submit();" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" id="btn">
+                Invia i dati 
+            </a>
+        </form>
+        
+        
+        
+        
+    </div>
+</body>
+
+</html>
